@@ -1,13 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+String msg = (String) request.getAttribute("msg");
+%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>redirected.jsp</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h1>redirected.jsp</h1>
-	<p><a href="/ex6/ex62">もどる</a></p>
+	<p><%= msg %></p>
+	<a href="game">もう一度</a>
 </body>
 </html>

@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>forwarded.jsp</title>
 </head>
 <body>
-
+	<h1>forwarded.jsp</h1>
+	<p><a href="/ex6/ex62">もどる</a></p>
 </body>
 </html>
