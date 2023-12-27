@@ -11,6 +11,7 @@ Fruit fruit = (Fruit) session.getAttribute("fruit");
 <title>Insert title here</title>
 </head>
 <body>
-	<%= fruit.getName() %>の値段は<%= fruit.getPrice() %>円です。
+	<h1>index.jspやで</h1>
+	<%= fruit.getName() %>の値段は ???<% // fruit.getPrice() %>円です。
 </body>
 </html>

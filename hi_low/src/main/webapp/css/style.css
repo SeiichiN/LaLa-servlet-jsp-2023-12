@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 400px;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+}
+
+.gazo {
+	width: 200px;
+}
