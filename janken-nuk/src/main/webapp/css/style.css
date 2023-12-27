@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.hand {
+	width: 100px;
+	cursor: pointer;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+}
