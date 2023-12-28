@@ -1,4 +1,4 @@
-package ex;
+package servlet;
 
 import java.io.IOException;
 
@@ -9,17 +9,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/fruit")
-public class FruitServlet extends HttpServlet {
+import model.Human;
+
+@WebServlet("/HumanServlet")
+public class HumanServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		Fruit fruit = new Fruit("いちご", 700);
-		
+		Human human = new Human("湊 雄輔", 23);
 		ServletContext application = this.getServletContext();
-		application.setAttribute("fruit", fruit);
-		String url = "WEB-INF/ex/fruit.jsp";
-		request.getRequestDispatcher(url).forward(request, response);
+		application.setAttribute("human", human);
+		System.out.println("アプリケーションスコープに保存しました");
 	}
 
 }
