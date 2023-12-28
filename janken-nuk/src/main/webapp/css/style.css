@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+#wrap {
+	width: 500px;
+	margin: 0 auto;
+}
 .hand {
 	width: 100px;
 	cursor: pointer;
@@ -7,4 +11,23 @@
 
 input[type="submit"] {
 	cursor: pointer;
+}
+
+input[type="radio"] {
+	visibility: hidden;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.result-area {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.result {
+	font-size: 1.2em;
+	font-weight: bold;
 }

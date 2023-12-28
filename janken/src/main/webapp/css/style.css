@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.hand-image {
+	width: 100px;
+}
+
+.janken-btn {
+	display: flex;
+	
+}
+
+.btn-area {
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
